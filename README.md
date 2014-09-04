@@ -19,8 +19,6 @@ var compressed_lorem = LZString.compress(lorem_data);
 console.log('Source : ' + lorem_data.length + ' | Compressed : ' + compressed_lorem.length);
 
 
-
-
 /***** Uncompressing Strings *****/
 
 var uncompressed_lorem = LZString.decompress(compressed_lorem)
@@ -49,3 +47,6 @@ $.get(api_url, compressOnSuccess);
 
 ## Home page
 Home page for this program with examples, documentation and a live demo: http://pieroxy.net/blog/pages/lz-string/index.html
+
+## Source lz-string 
+Original git repository: https://github.com/pieroxy/lz-string/
