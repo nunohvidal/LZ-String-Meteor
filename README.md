@@ -3,11 +3,11 @@ LZ-String-Meteor
 
 LZ-based compression algorithm for Meteor
 
-# Install
+## Install
 
   meteor add nunohvidal:lz-string
 
-# Usage
+## Usage
 
 ```javascript
 /***** Compressing Strings *****/
@@ -43,10 +43,10 @@ $.get(api_url, compressOnSuccess);
 
 ```
 
-# More info
+## More info
 
-## Home page
+### Home page
 Home page for this program with examples, documentation and a live demo: http://pieroxy.net/blog/pages/lz-string/index.html
 
-## Source lz-string 
+### Source lz-string 
 Original git repository: https://github.com/pieroxy/lz-string/
