@@ -16,7 +16,7 @@ var lorem_data = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
 var compressed_lorem = LZString.compress(lorem_data);
 // ... here do what ever you want with the compressed data - send to client/server, etc...
 console.log('Source : ' + lorem_data.length + ' | Compressed : ' + compressed_lorem.length);
-// Output - Source : 13525 | Compressed : 2776
+// Output - Source : 226 | Compressed : 87
 ```
 
 #### Decompressing Strings
@@ -51,7 +51,7 @@ var compressed_object = LZString.compress(stringified);
 // ... here do what ever you want with the compressed data - send to client/server, etc...
 console.log('Source : ' + stringified.length + ' | Compressed : ' + compressed_object.length);
 
-// Output - Source : 10871 | Compressed : 2005
+// Output - Source : 3595 | Compressed : 864
 ```
 
 #### Decompressing back to Array and/or JSON - use JSON.parse() after LZString.decompress()
